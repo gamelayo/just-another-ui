@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <section
       id="blog"
-      className="h-[100%] w-[100vw] md:w-[1152px] md:h-[687px] text-white flex justify-center flex-col items-center px-3 py-6 md:px-0 md:py-0"
+      className="h-[100%] w-[100vw] md:w-[1152px] md:h-[687px] text-white flex justify-center flex-col items-center px-3 py-8 md:px-0 md:py-0"
     >
       <div className="md:w-[853px] md:h-[330px] flex flex-col items-center justify-between">
         <p className="text-center leading-[19.36px] font-bold text-[16px]">
@@ -13,38 +13,38 @@ const Blog = () => {
         <ul className="flex flex-col md:h-[166px] md:w-[853px] justify-around text-[16px] md:text-[32px]">
           <div className="flex justify-evenly gap-4 py-4 md:py-0">
             <div className="flex flex-col md:flex-row justify-evenly gap-4 md:gap-12">
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Lorem
               </li>
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Ipsum{" "}
               </li>
             </div>
 
             <div className="flex flex-col md:flex-row justify-evenly gap-4 md:gap-12 ">
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Dolor{" "}
               </li>
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Sit
               </li>
             </div>
           </div>
           <div className="flex justify-evenly gap-4 pb-4 md:pb-4">
             <div className="flex flex-col md:flex-row justify-evenly  gap-4 md:gap-12">
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Dolor{" "}
               </li>
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Sit
               </li>
             </div>
 
             <div className="flex flex-col md:flex-row justify-evenly gap-4  md:gap-12">
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Lorem{" "}
               </li>
-              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold ">
+              <li className="bg-slate-100 md:w-[150px] py-2 text-black text-center font-bold px-3 md:px-0 cursor-pointer hover:bg-yellow-400 hover:text-slate-200">
                 Ipsum{" "}
               </li>
             </div>
