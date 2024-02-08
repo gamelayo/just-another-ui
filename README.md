@@ -4,6 +4,8 @@ Duplicate the Figma design file provided at the following link : https://www.fig
 
 This project was created with React and style with tailwindcss
 
+Design for both mobile and computer screen
+
 #Dependencies
 
 React Icons

@@ -97,8 +97,11 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="h-[61px] w-[100%] flex justify-center items-center cursor-pointer  hover:text-yellow-200">
-        &copy; {year}
+      <section className="h-[61px] w-[100%] flex justify-center items-center ">
+        <div className="cursor-pointer  hover:text-yellow-200">
+          {" "}
+          &copy; {year}
+        </div>
       </section>
     </footer>
   );

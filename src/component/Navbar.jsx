@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className=" w-[100vw] md:w-[1152px] h-[100px]  flex items-center justify-between px-3 md-px-0">
-      <h2 className="font-bold text-xl leading-[24.2px] text-slate-50">
+      <h2 className="font-bold text-xl leading-[24.2px] text-slate-50 cursor-pointer">
         JustAnotherUIKit
       </h2>
       {/* menu */}
